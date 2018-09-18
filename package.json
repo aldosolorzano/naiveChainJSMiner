@@ -1,0 +1,27 @@
+{
+  "name": "NaiveChainJSMiner",
+  "version": "0.0.0",
+  "description": "Naive chain miner for crypto-challenge",
+  "main": "index",
+  "engines": {
+    "node": ">= 9"
+  },
+  "scripts": {
+    "lint:fix": "tslint --fix -c tslint.json -p tsconfig.json",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:aldosolorzano/naiveChainJSMiner.git"
+  },
+  "author": "Aldo Solorzano",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/aldosolorzano/naiveChainJSMiner#readme",
+  "dependencies": {
+    "bitcoinjs-lib": "3.3.2",
+    "request": "2.83.0",
+    "request-promise-native": "1.0.5"
+  }
+}
